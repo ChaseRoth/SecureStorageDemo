@@ -1,0 +1,15 @@
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\Pages\ExampleOnePage.xaml.g.cs
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\Pages\MasterTabbedPage.xaml.g.cs
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\SecureStorageDemo.AssemblyInfoInputs.cache
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\SecureStorageDemo.AssemblyInfo.cs
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\bin\Debug\netstandard2.0\SecureStorageDemo.deps.json
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\bin\Debug\netstandard2.0\SecureStorageDemo.dll
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\bin\Debug\netstandard2.0\ref\SecureStorageDemo.dll
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\bin\Debug\netstandard2.0\SecureStorageDemo.pdb
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\SecureStorageDemo.dll
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\ref\SecureStorageDemo.dll
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\SecureStorageDemo.pdb
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\SecureStorageDemo.csprojAssemblyReference.cache
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\Pages\ExampleTwoPage.xaml.g.cs
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\XamlC.stamp

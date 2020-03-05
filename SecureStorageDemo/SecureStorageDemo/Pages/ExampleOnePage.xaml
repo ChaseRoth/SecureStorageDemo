@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SecureStorageDemo.Pages.ExampleOnePage" BackgroundColor="Black">
+
+    <StackLayout Padding="10">
+        <Label Text="{Binding TokenValue}"                                      TextColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+        <Button Command="{Binding GetTokenValueCMD}"                            Text="Get Test Token" VerticalOptions="EndAndExpand" Margin="0,0,0,20"/>
+    </StackLayout>
+
+</ContentPage>
