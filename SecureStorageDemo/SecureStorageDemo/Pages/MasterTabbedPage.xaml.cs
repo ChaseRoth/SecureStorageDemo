@@ -16,8 +16,9 @@ namespace SecureStorageDemo.Pages
         {
             InitializeComponent();
 
-            this.Children.Add(new ExampleOnePage() { Title = "Example One" });
-            this.Children.Add(new ExampleTwoPage() { Title = "Example Two" });
+            this.Children.Add(new ExampleOnePage() { Title = "Ex. 1" });
+            this.Children.Add(new ExampleTwoPage() { Title = "Ex. 2" });
+            this.Children.Add(new ExampleThreePage() { Title = "Ex. 3" });
         }
     }
 }

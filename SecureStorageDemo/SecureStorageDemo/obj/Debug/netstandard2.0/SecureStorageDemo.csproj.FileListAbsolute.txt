@@ -13,3 +13,5 @@ C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstanda
 C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\SecureStorageDemo.csprojAssemblyReference.cache
 C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\Pages\ExampleTwoPage.xaml.g.cs
 C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\Pages\ExampleThreePage.xaml.g.cs
+C:\Dev\SecureStorageDemo\SecureStorageDemo\SecureStorageDemo\obj\Debug\netstandard2.0\Pages\RegisterPage.xaml.g.cs

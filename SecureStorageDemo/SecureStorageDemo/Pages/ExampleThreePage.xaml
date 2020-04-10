@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SecureStorageDemo.Pages.ExampleThreePage"
+             BackgroundColor="#90ee90">
+
+    <Frame WidthRequest="300" HorizontalOptions="Center" VerticalOptions="Center" Padding="7">
+        <StackLayout>
+            <Entry Placeholder="Username" Text="{Binding Username}"/>
+            <Entry Placeholder="Password" Text="{Binding Password}"/>
+
+            <Button Text="Login" Command="{Binding LoginCMD}"/>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" WidthRequest="200">
+                <Label Text="Not registered?" VerticalOptions="Center"/>
+                <Button Text="Register" Command="{Binding RegisterCMD}"/>
+            </StackLayout>
+
+        </StackLayout>
+    </Frame>
+
+
+
+</ContentPage>

@@ -18,7 +18,7 @@ namespace SecureStorageDemo.Pages
         public ExampleOnePage()
         {
             InitializeComponent();
-            BindingContext = new MainPageVM();
+            BindingContext = new ExampleOneVM();
         }
     }
 }

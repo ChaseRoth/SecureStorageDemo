@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SecureStorageDemo.Pages.RegisterPage"
+             BackgroundColor="#90ee90">
+
+    <Frame WidthRequest="300" HorizontalOptions="Center" VerticalOptions="Center" Padding="7">
+        <StackLayout>
+
+            <Label Text="This is what other users will see."/>
+            <Entry Placeholder="Username" Text="{Binding Username}"/>
+            <Label Text="Must be atleast 3 characters long."/>
+            <Entry Placeholder="Password" Text="{Binding Password}"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Cancel" HorizontalOptions="EndAndExpand" BackgroundColor="Red" TextColor="White" WidthRequest="130" Command="{Binding CancelCMD}"/>
+                <Button Text="Save" HorizontalOptions="StartAndExpand" BackgroundColor="LightGreen" TextColor="White" WidthRequest="130" Command="{Binding SaveCMD}"/>
+            </StackLayout>
+
+        </StackLayout>
+    </Frame>
+
+
+</ContentPage>

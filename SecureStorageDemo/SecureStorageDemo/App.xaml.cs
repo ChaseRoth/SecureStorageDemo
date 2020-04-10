@@ -19,15 +19,20 @@ namespace SecureStorageDemo
 
         protected async override void OnStart()
         {
-            try
+            // If this is the first time the application is running; we will set some keys.
+            if (VersionTracking.IsFirstLaunchEver)
             {
-                // Storing the string to the disked based off the key
-                //await SecureStorage.SetAsync(TEST_TOKEN_KEY, "In C# 8.0 we can give our interfaces default implementation.");
-                //await SecureStorage.SetAsync(SYNC_TOKEN_KEY, "MjE1MDg5QDMxMzcyZTM0MmUzMEFvaWJYdzFIeFoxMDE5SEZWQ3FlRmF1VUgxelFvdklNaXNxZUFva25DYkU9");
-            }
-            catch (Exception ex)
-            {
-                // Possible that device doesn't support secure storage on device.
+                try
+                {
+                    // Storing the string to the disked based off the key
+                    // Key/Value
+                    await SecureStorage.SetAsync(TEST_TOKEN_KEY, "My important message: In C# 8.0 we can give our interfaces default implementation.");
+                    await SecureStorage.SetAsync(SYNC_TOKEN_KEY, "MjE1MDg5QDMxMzcyZTM0MmUzMEFvaWJYdzFIeFoxMDE5SEZWQ3FlRmF1VUgxelFvdklNaXNxZUFva25DYkU9");
+                }
+                catch (Exception ex)
+                {
+                    // Its possible that device doesn't support secure storage on device.
+                }
             }
         }
 
